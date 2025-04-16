@@ -3,6 +3,8 @@ Prezentare Generală
 OpenBook ESP32-C6 este o platformă hardware portabilă și eficientă energetic, concepută pentru aplicații embedded. Aceasta are la bază microcontrollerul ESP32-C6-WROOM-1-N8, ce oferă suport pentru Wi-Fi 6 și Bluetooth 5.0 Low Energy, precum și o varietate de interfețe pentru conectarea senzorilor și a altor module externe. Sistemul integrează un ecran e-paper, senzor de mediu BME688, ceas în timp real DS3231SN, memorie NOR Flash de 64MB, cititor pentru card microSD și un sistem de alimentare pe bază de baterie LiPo, cu încărcare integrată și monitorizare a nivelului de energie.
 
 
+Bill of Materials
+
 Componenta	Link	Datasheet
 ESP32_WROVER_EAGLE-LTSPICE_RR0402	https://www.snapeda.com/parts/RC0402FR-07226RL/Yageo/view-part/	https://www.snapeda.com/parts/RC0402FR-07226RL/Yageo/datasheet/
 QWIIC_CONNECTORJS-1MM	https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/	https://www.snapeda.com/parts/PRT-14417/SparkFun%20Electronics/datasheet/
