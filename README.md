@@ -3,82 +3,35 @@ Prezentare Generală
 OpenBook ESP32-C6 este o platformă hardware portabilă și eficientă energetic, concepută pentru aplicații embedded. Aceasta are la bază microcontrollerul ESP32-C6-WROOM-1-N8, ce oferă suport pentru Wi-Fi 6 și Bluetooth 5.0 Low Energy, precum și o varietate de interfețe pentru conectarea senzorilor și a altor module externe. Sistemul integrează un ecran e-paper, senzor de mediu BME688, ceas în timp real DS3231SN, memorie NOR Flash de 64MB, cititor pentru card microSD și un sistem de alimentare pe bază de baterie LiPo, cu încărcare integrată și monitorizare a nivelului de energie.
 
 
-Bill of Materials
-
-Denumire Componentă	Link Produs	Fișă Tehnică
-Rezistor 0402 - 226Ω	SnapEDA - RC0402FR-07226RL
-Datasheet
-
-Conector Qwiic 1mm	SnapEDA - PRT-14417
-Datasheet
-
-Buton Tactil Panasonic	Panasonic EVQPUJ02K
-Catalog
-
-Condensator Ceramic 10uF - 0402	YAGEO - CC0402MRX5R5BB106
-Fișă Tehnică
-
-Cristal RTC - CPH3225A	SnapEDA - Seiko
-Datasheet
-
-LED 0603 Roșu	Kingbright KP-1608SURCK
-Datasheet
-
-Conector Attend 112A	Comet.bg
-Fișă tehnică
-
-Bobină WE-TPC 6.8uH	Digi-Key
-Würth - Datasheet
-
-Regulator de Tensiune LDO BD5229G	ROHM Semiconductor
-Datasheet
-
-Modul RTC DS3231SN	SnapEDA - Analog Devices
-Fișă Tehnică
-
-Modul WiFi ESP32-C6-WROOM-1-N8	SnapEDA - Espressif
-Fișă Tehnică
-
-Controler Încărcare MCP73831	Digi-Key
-Microchip - Datasheet
-
-Senzor BME680	SnapEDA - Bosch
-Datasheet
-
-MOSFET P-Channel DMG2305UX	Diodes Inc.
-Fișă Tehnică
-
-Varistor SMD 1812	Mouser - EPCOS
-Datasheet
-
-LDO Regulator XC6220	Torex
-Fișă Tehnică
-
-Fuel Gauge MAX17048	SnapEDA - Analog Devices
-Datasheet
-
-Diodă Schottky MBR0530	Mouser
-Datasheet
-
-Protecție ESD - PGB1010603MR	SnapEDA - Littelfuse
-Datasheet
-
-Condensator Tantal - TR3B106K025C1300	Mouser - Vishay
-Datasheet
-
-Conector USB-C - USB4110-GF-A	GCT
-Fișă Tehnică
-
-Tranzistor SI1308EDL	Vishay
-Datasheet
-
-Jumper Solder SJ	GrabCAD - SJ
--
-Supresor ESD - USBLC6-2SC6Y	SnapEDA - STMicroelectronics
-Fișă Tehnică
-
-Memorie NOR Flash - W25Q512JVEIQ	SnapEDA - Winbond
-Datasheet
+Componenta	Link	Datasheet
+ESP32_WROVER_EAGLE-LTSPICE_RR0402	https://www.snapeda.com/parts/RC0402FR-07226RL/Yageo/view-part/	https://www.snapeda.com/parts/RC0402FR-07226RL/Yageo/datasheet/
+QWIIC_CONNECTORJS-1MM	https://www.snapeda.com/parts/PRT-14417/SparkFun/view-part/	https://www.snapeda.com/parts/PRT-14417/SparkFun%20Electronics/datasheet/
+BUTTON_CUSYOMV1	https://industry.panasonic.com/global/en/downloads?tab=cad&small_g_cd=203&part_no=EVQPUJ02K&q=RVZRUFVKMDJLJTdDMTMlN0MyMDMlN0MzNDU5JTdDMSU3QyU3QyU3Q2ZhbHNl	https://industry.panasonic.com/global/en/downloads?tab=catalog&small_g_cd=203&part_no=EVQPUJ02K&q=RVZRUFVKMDJLJTdDMTMlN0MyMDMlN0MzNDU5JTdDMSU3QyU3QzIlN0NmYWxzZQ%3D%3D
+ESP32_WROVER_EAGLE-LTSPICE_CC0402	https://componentsearchengine.com/part-view/CC0402MRX5R5BB106/YAGEO	https://componentsearchengine.com/Datasheets/2/CC0402MRX5R5BB106.pdf
+CPH3225A	https://www.snapeda.com/parts/CPH3225A/Seiko+Instruments/view-part/?ref=eda	https://www.snapeda.com/parts/CPH3225A/Seiko%20Instruments/datasheet/
+ADAFRUIT_LEDCHIP-LED0603	https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/view-part/?ref=search&t=LED%200603	https://www.snapeda.com/parts/KP-1608SURCK/Kingbright/datasheet/
+112A-TAAR-R03_ATTEND	https://store.comet.bg/en/Catalogue/Product/43497/	https://store.comet.bg/en/Catalogue/Product/43497/
+744043680IND_4828-WE-TPC_WRE	https://www.digikey.sg/en/models/1638515	https://www.we-online.com/components/products/datasheet/744043680.pdf
+BD5229G-TR	https://componentsearchengine.com/part-view/BD5229G-TR/ROHM%20Semiconductor	https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/f2b9741ef86007909f138d561a359946.pdf
+CPH3225A	https://www.snapeda.com/parts/CPH3225A/Seiko+Instruments/view-part/?ref=eda	https://www.snapeda.com/parts/CPH3225A/Seiko%20Instruments/datasheet/
+DS3231SN	https://www.snapeda.com/parts/DS3231SN%23/Analog+Devices/view-part/?ref=eda	https://www.snapeda.com/parts/DS3231SN%23/Analog%20Devices/datasheet/
+ESP32-C6-WROOM-1-N8	https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif+Systems/view-part/?ref=eda	https://www.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif%20Systems/datasheet/
+MCP73831	https://www.digikey.com/en/models/1874108	https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP73831-Family-Data-Sheet-DS20001984H.pdf
+ESP32_WROVER_BME680_BME680	https://www.snapeda.com/parts/BME680/Bosch/view-part/?welcome=home	https://www.snapeda.com/parts/BME680/Bosch%20Sensortec/datasheet/
+ESP32_WROVER_EAGLE-LTSPICE_CC0402	https://componentsearchengine.com/Datasheets/2/CC0402MRX5R5BB106.pdf	https://componentsearchengine.com/part-view/CC0402MRX5R5BB106/YAGEO
+ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH-DMG2305UX-7	https://componentsearchengine.com/part-view/DMG2305UX-7/Diodes%20Incorporated	https://www.diodes.com//assets/Datasheets/DMG2305UX.pdf
+ESP32C6_VARISTORCN1812	https://www.mouser.co.uk/ProductDetail/EPCOS-TDK/B72520T0350K062?qs=dEfas%2FXlABIszF52uu7vrg%3D%3D	https://www.tdk-electronics.tdk.com/inf/75/db/CTVS_14/Surge_protection_series.pdf
+FH34SRJ-24S-0.5SH_99_	https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex	https://product.torexsemi.com/system/files/series/xc6220.pdf
+MAX17048G+T10	https://www.snapeda.com/parts/MAX17048G+T10/Analog+Devices/view-part/?ref=eda	https://www.snapeda.com/parts/MAX17048G+T10/Analog%20Devices/datasheet/
+MBR0530	https://ro.mouser.com/ProductDetail/KYOCERA-AVX/SD0805S020S1R0?qs=jCA%252BPfw4LHbpkAoSnwrdjw%3D%3D	https://ro.mouser.com/datasheet/2/40/schottky-3165252.pdf
+PGB1010603MR	https://www.snapeda.com/parts/PGB1010603MR/Littelfuse/view-part/?ref=eda	https://www.snapeda.com/parts/PGB1010603MR/Littelfuse%20Inc./datasheet/
+RCL_CPOL-EUCT3528	https://ro.mouser.com/ProductDetail/Vishay-Sprague/TR3B106K025C1300?qs=jCGqFXxTmLdffnuDkXzk1g%3D%3D	https://www.vishay.com/docs/40080/tr3.pdf
+SAMACSYS_PARTS_USB4110-GF-A	https://componentsearchengine.com/part-view/USB4110-GF-A/GCT%20(GLOBAL%20CONNECTOR%20TECHNOLOGY)	https://gct.co/files/drawings/usb4110.pdf
+SI1308EDL-T1-GE3	https://componentsearchengine.com/part-view/SI1308EDL-T1-GE3/Vishay	https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-GE3.pdf
+SJ	https://grabcad.com/library/solder-jumpers-1	
+USBLC6-2SC6Y	https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part/?ref=eda	https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/datasheet/
+W25Q512JVEIQ	https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda	https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/datasheet/
+XC6220A331MR-G	https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex
 
 
 
