@@ -33,8 +33,6 @@ USBLC6-2SC6Y	https://www.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-
 W25Q512JVEIQ	https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond+Electronics/view-part/?ref=eda	https://www.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/datasheet/
 XC6220A331MR-G	https://componentsearchengine.com/part-view/XC6220A331MR-G/Torex
 
-
-
 ![image](https://github.com/user-attachments/assets/ca705879-3fab-4138-b962-62f0d286eb46)
 
 
